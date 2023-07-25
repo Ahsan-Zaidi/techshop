@@ -1,0 +1,23 @@
+{
+  "name": "techshop",
+  "version": "1.0.0",
+  "description": "eCommerce Application built in MERN",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahsan-Zaidi/techshop.git"
+  },
+  "author": "Ahsan Zaidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ahsan-Zaidi/techshop/issues"
+  },
+  "homepage": "https://github.com/Ahsan-Zaidi/techshop#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
