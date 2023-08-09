@@ -182,7 +182,7 @@ const OrderScreen = () => {
                                                 ></PayPalButtons>
                                             </div>
                                         </div>
-                                    )};
+                                    )}
                                 </ListGroup.Item>
                             ) }
 
