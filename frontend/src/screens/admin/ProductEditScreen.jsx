@@ -128,6 +128,7 @@ import {
                                 label='Choose file'
                                 onChange={uploadFileHandler}
                             ></Form.Control>
+                            {loadingupload && <Loader />}
                         </Form.Group>
 
                         <Form.Group controlId='brand'>
