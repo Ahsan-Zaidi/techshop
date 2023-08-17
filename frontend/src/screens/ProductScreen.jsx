@@ -15,6 +15,7 @@ import { toast } from 'react-toastify';
 import Rating from "../components/Rating";
 import Loader from "../components/Loader";
 import Message from "../components/Message";
+import Meta from "../components/Meta";
 import { useGetProductDetailsQuery, useCreateReviewMutation } from "../slices/productsApiSlice";
 import { addToCart } from "../slices/cartSlice";
 
@@ -71,6 +72,7 @@ const ProductScreen = () => {
                 </Message>
             ) : (
                 <>
+                    <Meta title={product.name} />
                     <Row>
                         <Col md={5}>
                             <Image src={product.image} alt={product.name} fluid />
