@@ -10,7 +10,8 @@
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": " node backend/seeder.js",
-    "data:destroy": " node backend/seeder.js -d"
+    "data:destroy": " node backend/seeder.js -d",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/Ahsan-Zaidi/techshop/issues"
   },
-  "homepage": "https://github.com/Ahsan-Zaidi/techshop#readme",
+  "homepage": "https://github.com/Ahsan-Zaidi/techshop/",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
