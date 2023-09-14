@@ -6,7 +6,9 @@
     <img src="https://img.shields.io/badge/Javascript-yellow" />
     <img src="https://img.shields.io/badge/express-orange" />
     <img src="https://img.shields.io/badge/Mongoose-red"  />
+    <img src="https://img.shields.io/badge/MongoDB-yellow"  />
     <img src="https://img.shields.io/badge/React-blue"  />
+    <img src="https://img.shields.io/badge/Redux-red"  />
     <img src="https://img.shields.io/badge/dotenv-green" />
     <img src="https://img.shields.io/badge/Jwt-blue" />
     <img src="https://img.shields.io/badge/Bootstrap-purple" />
@@ -16,16 +18,16 @@
 
 ## Description
 
-🔍I've created a workout application that boasts a vast collection of over a thousand workouts categorized by muscle groups. It features accompanying exercises and instructional videos for each, all designed to support individuals in their pursuit of improving their physical fitness.
+🔍 I've developed a fully functional e-commerce application equipped with authentication, user registration, shopping cart functionality, comment sections, and a seamless payment system integrated with the PayPal API. Popshop serves as a one-stop destination for purchasing your favorite electronics at affordable prices.
 
-✋ [GitHub Repository] https://github.com/Ahsan-Zaidi/getup-exercise
+✋ [GitHub Repository] https://github.com/Ahsan-Zaidi/techshop
 
-✋ [Deployed App] https://ahsan-zaidi.github.io/getup-exercise/
+✋ [Deployed App] https://popshop-6szd.onrender.com/
 
 ## ✋User Story
 
-I WANT to discover exercises to enhance my physique
-SO THAT I can achieve muscle growth.
+I WANT to buy electronic goods at a budget-friendly cost
+SO THAT I can save money and be happy.
 
 ## Table of Contents
 - [Description](#description)
@@ -44,9 +46,15 @@ you can run this application by installing the zip and running "npm start"
 ## 👨‍💻Technologies Used
 
 REACT, 
+Redux,
+Redux-toolkit,
 JavaScript, 
-Server side API,
-Bootstrap
+Rest API,
+Third Party API,
+Bootstrap,
+MongoDB,
+Mongoose,
+JWT,
 
 ## 💾Installation
 
